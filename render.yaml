@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: invoice-splitter
+    env: node
+    plan: starter
+    buildCommand: npm run build
+    startCommand: npm start
+    autoDeploy: true
